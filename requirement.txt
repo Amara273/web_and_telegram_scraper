@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+tensorflow
+scikit-learn
+tqdm
+argparse
+jupyter
+selenium
+telethon
+dotenv
