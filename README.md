@@ -1,3 +1,25 @@
+Before running everything please do the following:
+
+```bash
+    touch .env
+```
+
+Sign up for a Telegram Developer account using the following: https://core.telegram.org/. 
+Inside the **.env** make sure to include the following:
+
+```python 
+    API_ID = # your API_ID
+    API_HASH = # your API_HASH
+```
+
+Then please run the following:
+
+```shell
+    pip install -r requirement.txt
+```
+
+Now you can run the file that is within the scraper directory.
+
 There should be ten different Channel objects inside of the chats list. To access it you can check the code inside of service_discovery.py.
 Make sure to be aware of the information that is being scraped from each of the channels.
 
