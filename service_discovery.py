@@ -23,5 +23,3 @@ with TelegramClient("session", API_ID, API_HASH) as client:
     for channel in result:
         channel_info : list = handleChannel(channel)
         channels_discovered.append(channel_info)
-    
-        
